@@ -6,7 +6,7 @@ def interface():
 def total_de_tentativas(total_de_tentativas,rodada,chute):
     numero_secreto = 42
     total_de_tentativas = 3
-    rodada = 1
+    rodada = 3
 
     while(total_de_tentativas > 0):
         print("Tentativa {} de {}".format(rodada, total_de_tentativas))
@@ -26,8 +26,8 @@ def total_de_tentativas(total_de_tentativas,rodada,chute):
             print("Você errou..")
     
         
-        rodada = rodada + 1
-        total_de_tentativas = total_de_tentativas - 1
+        rodada = rodada - 1
+        total_de_tentativas = total_de_tentativas 
 
         print("Tentativas esgotadas")
 
