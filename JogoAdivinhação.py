@@ -27,7 +27,7 @@ def total_de_tentativas(total_de_tentativas,rodada,chute):
     
         
         rodada = rodada - 1
-        total_de_tentativas = total_de_tentativas 
+        total_de_tentativas = total_de_tentativas -1
 
         print("Tentativas esgotadas")
 
